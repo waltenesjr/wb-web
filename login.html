@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+       
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/login.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+       
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+        <script src="js/login.js"></script>
+	<script src="js/sha256.js"></script>
+
+        <title>WarningBox</title>
+    </head>
+    
+    <body>
+       <div role="main" class="ui-content" id="divCorpo">
+            <form id="formlogin">
+                <div data-role="header" data-theme="b" data-position="fixed">
+                    <h1>WarningBox</h1>
+                </div>
+
+                <br><br><br>
+
+                <div style="text-align: center;">
+                    <img src="upload/logo.png" height="75" width="75">
+                </div>
+
+                <br><br><br> 
+
+                <input type="email" id="email" name="email" placeholder="Informe o seu email">
+                <input type="password" id="senha" name="senha" placeholder="Informe a senha">
+                
+                <br><br>
+                
+                <a class="botao-a ui-btn" onclick="entrar()" data-theme="b">Entrar</a>
+            </form>
+        </div>
+
+        <div data-role="footer" data-theme="b" data-position="fixed" >
+            <h4 onclick="window.location.href='index.html';" style="cursor: pointer;">warningbox.com.br</h4>
+        </div>
+        
+         <script type="text/javascript">
+            carregar();
+        </script>
+    </body>
+</html>
