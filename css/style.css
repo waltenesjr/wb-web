@@ -223,7 +223,7 @@ a:hover {
 .ico-like,
 .ico-present,
 .istore a:after {
-    background: url(images/sprite.png) no-repeat 0 0;
+    background: url(../images/sprite.png) no-repeat 0 0;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #324d5b !important;
@@ -634,8 +634,14 @@ footer .logo img, video {
 }
 
 .video-youtube {
-    width: 675px !important;
+    width: 900px !important;
     height: 380px !important;
+}
+
+.img-cliente {
+    height: 250px;
+    width: 300px;
+    padding: 10px;
 }
 
 /* Responsive -------------------------- */
@@ -821,7 +827,7 @@ only screen and (min-resolution:2dppx){
     .ico-like,
     .ico-present,
     .istore a:after {
-        background-image: url(images/sprite@2x.png);
+        background-image: url(../images/sprite@2x.png);
         -moz-background-size: 300px 150px;
         -ie-background-size: 300px 150px;
         -o-background-size: 300px 150px;
